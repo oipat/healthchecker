@@ -1,0 +1,12 @@
+var config = {};
+
+config.TARGET_HOSTNAME = 'example.com';
+config.TARGET_PORT = 80;
+
+# Base64, Encrypted with crypter.js
+config.PUSHBULLET_KEY = '';
+config.PUSHBULLET_API_HOST = 'api.pushbullet.com';
+config.PUSHBULLET_API_ENDPOINT = '/v2/pushes';
+
+
+module.exports = config;
